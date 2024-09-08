@@ -18,10 +18,10 @@ You can find more information about this method here: https://en.wikipedia.org/w
 
 # Tasks
 
-* Implement the `quad()` and `quadPrime()` functions in `quadratic.cpp`. These functions are already declared in `quadratic.h`, and you can find information about their parameters in this header file.
+* Implement the `myQuad()` and `myQuadPrime()` functions in `quadratic.cpp`. These functions are already declared in `quadratic.h`, and you can find information about their parameters in this header file.
   
 * Implement the `newtonRaphsonQuad()` function in `netwon.cpp`. This function is already declared in `newton.h`, and you can find information about its parameters in this header file.
-  * In `newtonRaphsonQuad()`, call the `quad()` and `quadPrime()` functions to calculate approximate roots.
+  * In `newtonRaphsonQuad()`, call the `myQuad()` and `myQuadPrime()` functions to calculate approximate roots.
   * In `newtonRaphsonQuad()`, use the constants `THRESHOLD` and `MAX_ITERS`, which are declared in `newton.h`, to terminate the algorithm. Do not change their values.
 
 # Compile and Test
