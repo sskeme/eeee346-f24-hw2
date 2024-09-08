@@ -50,6 +50,20 @@ g++ -o main *.cpp *.h
  Root Found: 0.0932822, Iterations: 2
  ```
 
+  * More test sets (your output must be the same)
+  ```
+  3 -11 1 2.5 --> Root Found: 3.57338, Iterations: 5
+  ```
+  ```
+  0.5 14.6 -20.2 1 --> Root Found: 1.32357, Iterations: 3
+  ```
+  ```
+  0.5 14.6 -20.2 -50 --> Root Found: -30.5236, Iterations: 5
+  ```
+  ```
+  10 1 1 1 --> No root found. Max iterations reached ( 100 )
+  ```
+
 # Submit
 
 Please upload your `quadratic.cpp` and `netwon.cpp` files to `myCourses > Assignments > HW2`. Do not submit *.docx, *.pdf, *.txt, or *.zip file. 
