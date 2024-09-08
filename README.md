@@ -22,7 +22,7 @@ You can find more information about this method here: https://en.wikipedia.org/w
   
 * Implement the `newtonRaphsonQuad()` function in `netwon.cpp`. This function is already declared in `newton.h`, and you can find information about its parameters in this header file.
   * In `newtonRaphsonQuad()`, call the `quad()` and `quadPrime()` functions to calculate approximate roots.
-  * In `newtonRaphsonQuad()`, use macro constants `THRESHOLD` and `MAX_ITERS`, which are declared in `newton.h`, to terminate the algorithm. Do not change their values.
+  * In `newtonRaphsonQuad()`, use the constants `THRESHOLD` and `MAX_ITERS`, which are declared in `newton.h`, to terminate the algorithm. Do not change their values.
 
 # Compile and Test
 
