@@ -4,7 +4,7 @@
 /**
  * Absolute difference threshold to trigger stop of Newton's method iterations
  */
-const float THRESHOLD = 0.0001;
+const double THRESHOLD = 0.0001;
 
 /**
  * Max number of iterations to stop Newton's method
