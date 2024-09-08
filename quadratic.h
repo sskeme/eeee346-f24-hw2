@@ -10,7 +10,7 @@
  * @param c - coefficient c
  * @return y(x) = ax^2 + bx +c
  */
-double quad(double x, double a, double b, double c);
+double myQuad(double x, double a, double b, double c);
 
 /**
  * Compute value of the derivative of a quadratic
@@ -20,6 +20,6 @@ double quad(double x, double a, double b, double c);
  * @param b - coefficient b
  * @return y'(x) = 2ax + b
  */
-double quadPrime(double x, double a, double b);
+double myQuadPrime(double x, double a, double b);
 
 #endif
