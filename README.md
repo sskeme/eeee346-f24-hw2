@@ -10,7 +10,7 @@ The initial approximation of the root ($$x_1$$) is calculated based on an initia
 
 $$x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}$$
 
-This process is repeated 1) `MAX_ITERS` times or 2) until the difference between $$x_{n+1}$$ and $$x_n$$ is very small.
+This process is repeated 1) `MAX_ITERS` times or 2) until the absolute difference between $$x_{n+1}$$ and $$x_n$$ is less than `THRESHOLD`.
 
 $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 
