@@ -6,11 +6,11 @@ In this homework, you will be implementing Newton's method, also known as the Ne
 
 The algorithm is an iterative process that produces better approximations of an equation's root.
 
-The initial approximation of the root ($$x_1$$) is calculated based on an initial guess ($$x_0$$), evaulation of the equation function $$f(x_0)$$ and its derivative $$f'(x_0)$$.
+The initial approximation of the root ($$x_1$$) is calculated based on an initial guess ($$x_0$$), evaulation of the equation function $$f(x_0)$$, and its derivative $$f'(x_0)$$.
 
 $$x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}$$
 
-This equation is repeated 1) `MAX_ITERS` times or 2) until the difference between $$x_{n+1}$$ and $$x_n$$ is very small.
+This process is repeated 1) `MAX_ITERS` times or 2) until the difference between $$x_{n+1}$$ and $$x_n$$ is very small.
 
 $$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$$
 
